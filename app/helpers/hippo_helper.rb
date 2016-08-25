@@ -1,0 +1,2 @@
+module HippoHelper
+end

@@ -1,0 +1,23 @@
+
+<br>
+Name: <%=@hippo.name%>
+<br>
+Color: <%=@hippo.color%>
+<br>
+Age: <%=@hippo.age%>
+<br>
+Swimming Speed: <%=@hippo.current_speed%>
+
+<form action="/hippo/accelerate" method="get">
+  <input type="submit" value="Swim Faster">
+</form>
+
+<form action="/hippo/decelerate" method="get">
+  <input type="submit" value="Swim Slower">
+</form>
+
+<form action="/hippo/jaws" method="get">
+  <input type="submit" value="Toggle Jaws">
+</form>
+
+Jaws are: <%=@hippo.jaws%>
